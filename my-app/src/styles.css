@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.div {
+    align-items: center;
+    text-align: center;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.player-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.player-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.player-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15rem;
+  height: 22rem;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #7679a3;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.826);
+}
+.card img {
+
+  margin: 1rem;
+  width: 85%;
+  height: 14rem;
+  border-style: solid
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  display: inline-block;
+}
+
+.home-text {
+  color: rgba(255, 255, 255, 0.826);
+  text-align: center;
+  font-size: 35px;
+}
+.logo-text {
+  color: #f1356d;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.content-text {
+  color: #06153e;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+.home-image {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.50);
+  height: 200px;
+  width: 250px;
+  margin: 1rem;
+  border-style: solid;
+  border-color:rgba(255, 255, 255, 0.826);
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.education{
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(92, 158, 6, 0.2);
+}
