@@ -4,8 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { ProposalComponent } from './proposal/proposal.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'proposal', component: ProposalComponent}
+  {path: 'STOR-565-Final-Project/', component: HomeComponent},
+  {path: 'STOR-565-Final-Project/proposal', component: ProposalComponent}
 ];
 
 @NgModule({
