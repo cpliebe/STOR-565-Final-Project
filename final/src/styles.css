@@ -114,10 +114,3 @@
   display: flex;
   justify-content: center;
 }
-
-.education{
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: rgba(92, 158, 6, 0.2);
-}
