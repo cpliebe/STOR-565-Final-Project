@@ -109,8 +109,3 @@
   border-style: solid;
   border-color:rgba(255, 255, 255, 0.826);
 }
-
-.row{
-  display: flex;
-  justify-content: center;
-}
