@@ -101,6 +101,10 @@
   font-weight: bold;
   
 }
+.a {
+  color: blue;
+
+}
 .home-image {
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.50);
   height: 200px;
